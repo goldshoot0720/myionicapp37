@@ -7,7 +7,22 @@ import { Component } from '@angular/core';
   standalone: false,
 })
 export class HomePage {
-
   constructor() {}
-
+  
+    alertButtons = ['確定'];
+    public alertInputs = [
+    {
+	  type: 'text',
+      placeholder: 'email',
+    },
+    {
+	  type: 'password',
+      placeholder: 'password',
+    },
+	{
+      type: 'checkbox',
+	  label: '儲存使用者資訊',
+      value: true,
+	}
+  ];
 }
