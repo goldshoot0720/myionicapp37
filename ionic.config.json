@@ -1,0 +1,7 @@
+{
+  "name": "myionicapp37",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
